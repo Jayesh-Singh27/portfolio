@@ -1,5 +1,14 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -7,39 +16,57 @@ body {
     color: #333;
 }
 
+/* Header styling */
 header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 header p {
     margin: 0.5rem 0;
 }
 
+header a {
+    color: #ffce00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
 section {
-    padding: 1rem 2rem;
+    padding: 2rem 1rem;
     margin: 1rem auto;
     max-width: 800px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-left: 8px solid #ffce00;
 }
 
 section h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
+    font-size: 1.8rem;
 }
 
 section h3 {
-    margin-top: 0;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: #555;
 }
 
 ul {
@@ -48,4 +75,24 @@ ul {
 
 ul li {
     margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section h3 {
+        font-size: 1.2rem;
+    }
 }
