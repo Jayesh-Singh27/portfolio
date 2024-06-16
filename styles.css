@@ -12,14 +12,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 /* Header styling */
 header {
-    background: #333;
-    color: #fff;
+    background: #1f1f1f;
+    color: #ffce00;
     padding: 1rem 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,7 @@ header a:hover {
 
 /* Navigation bar styling */
 nav {
-    background: #444;
+    background: #1a1a1a;
     padding: 0.5rem 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -66,7 +66,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #e0e0e0;
     text-decoration: none;
     font-weight: bold;
 }
@@ -76,27 +76,32 @@ nav ul li a:hover {
 }
 
 /* Section styling */
-section {
+main {
     padding: 2rem 1rem;
+}
+
+section {
     margin: 1rem auto;
     max-width: 800px;
-    background: #fff;
+    background: #1f1f1f;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-left: 8px solid #ffce00;
+    padding: 1rem;
 }
 
 section h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #ffce00;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     font-size: 1.8rem;
+    color: #ffce00;
 }
 
 section h3 {
     margin-top: 1rem;
     font-size: 1.4rem;
-    color: #555;
+    color: #cccccc;
 }
 
 ul {
@@ -106,6 +111,16 @@ ul {
 ul li {
     margin-bottom: 0.5rem;
     line-height: 1.4;
+    color: #cccccc;
+}
+
+a {
+    color: #ffce00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive design */
