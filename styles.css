@@ -45,6 +45,10 @@ header a:hover {
     text-decoration: underline;
 }
 
+header i {
+    margin-right: 0.5rem;
+}
+
 /* Navigation bar styling */
 nav {
     background: #1a1a1a;
@@ -121,6 +125,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+a i {
+    margin-right: 0.3rem;
 }
 
 /* Responsive design */
