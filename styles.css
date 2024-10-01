@@ -63,6 +63,7 @@ header a {
 
 header a:hover {
     color: #e0e0e0;
+    text-decoration: none;
 }
 
 header p a {
