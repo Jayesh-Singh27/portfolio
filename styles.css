@@ -52,6 +52,7 @@ header h1 {
 
 header p {
     margin: 0.5rem 0;
+    font-size: 1.2rem;
 }
 
 header a {
@@ -62,6 +63,14 @@ header a {
 
 header a:hover {
     text-decoration: underline;
+    color: #e0e0e0;
+}
+
+header p a {
+    color: #ffce00;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 
 header i {
