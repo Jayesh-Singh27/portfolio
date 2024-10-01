@@ -17,6 +17,32 @@
     line-height: 1.6; /* Spacing for the text */
 }
 
+.education-entry {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    margin-bottom: 1.5rem; /* Space between education entries */
+    background: #1f1f1f; /* Background color for the box */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1rem; /* Padding inside the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.university-logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 1rem; /* Space between logo and text */
+}
+
+.education-details h3 {
+    margin: 0; /* Remove margin for degree name */
+    font-size: 1.2rem; /* Degree name size */
+}
+
+.education-details p {
+    margin: 0; /* Remove margin for university name */
+    color: #cccccc; /* University name color */
+}
+
 /* Reset some default styles */
 body, h1, h2, h3, p, ul {
     margin: 0;
