@@ -1,3 +1,22 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px; /* Adjust this size as needed */
+    height: 150px;
+    margin-right: 20px; /* Space between image and text */
+    object-fit: cover; /* Ensures the image is fully contained in the circle */
+}
+
+#about-me p {
+    flex: 1; /* Makes sure the text takes up the remaining space */
+    line-height: 1.6; /* Spacing for the text */
+}
+
 /* Reset some default styles */
 body, h1, h2, h3, p, ul {
     margin: 0;
