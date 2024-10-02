@@ -60,7 +60,7 @@
 
 
 .university-logo {
-    width: 50px; /* Adjust the size of the logo */
+    width: 75px; /* Adjust the size of the logo */
     height: auto; /* Maintain aspect ratio */
     margin-right: 1rem; /* Space between logo and text */
 }
@@ -172,13 +172,13 @@ nav ul li a:hover {
 /* Section styling */
 main {
     padding: 2rem 1rem;
-    max-width: 900px; /* Increase this value to make the boxes wider */
+    max-width: 1000px; /* Increase this value to make the boxes wider */
     margin: 0 auto; /* Ensure it's centered */
 }
 
 section {
     margin: 1rem auto;
-    max-width: 900px;
+    max-width: 1000px;
     background: #1f1f1f;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
