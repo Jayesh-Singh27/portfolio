@@ -110,7 +110,7 @@ header h1 {
     margin: 0;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #ffffff;
+    color: #66FCF1;
 }
 
 header p {
@@ -138,11 +138,11 @@ header p a {
 
 /* Icon Colors */
 header i.fa-envelope {
-    color: #ff0000; /* Red email icon */
+    color: #ff3333; /* Red email icon */
 }
 
 header i.fa-phone {
-    color: #ffce00; /* Yellow phone icon */
+    color: #ffffc5; /* Yellow phone icon */
 }
 
 header i.fa-linkedin {
@@ -204,11 +204,11 @@ section {
 }
 
 section h2 {
-    border-bottom: 2px solid #4682B4; /* Steel blue color for the line */
+    border-bottom: 2px solid #66FCF1; /* Steel blue color for the line */
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     font-size: 1.8rem;
-    color: #4682B4; /* Light blue color */
+    color: #66FCF1; /* Light blue color */
 }
 
 section h3 {
