@@ -111,6 +111,9 @@ header h1 {
     font-size: 2.5rem;
     font-weight: bold;
     color: #66FCF1;
+    text-align: center; /* or left, depending on your design */
+    margin: 0; /* Ensures no extra space is added */
+    padding: 0; /* Ensures no extra space is added */
 }
 
 header p {
