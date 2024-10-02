@@ -172,11 +172,13 @@ nav ul li a:hover {
 /* Section styling */
 main {
     padding: 2rem 1rem;
+    max-width: 900px; /* Increase this value to make the boxes wider */
+    margin: 0 auto; /* Ensure it's centered */
 }
 
 section {
     margin: 1rem auto;
-    max-width: 800px;
+    max-width: 900px;
     background: #1f1f1f;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
