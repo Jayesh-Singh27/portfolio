@@ -20,15 +20,17 @@
 /* USC Styling */
 .education-entry.usc {
     background-color: #FFCC00; /* USC Yellow */
-    color: #000000; /* Black text */
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
 
+.education-entry.usc, .education-entry.usc p, .education-entry.usc h3, .education-entry.usc a {
+    color: #000000 !important; /* Black text */
+}
+
 .education-entry.usc a {
-    color: #990000; /* USC Red for links */
-    text-decoration: none;
+    color: #990000 !important; /* USC Red for links */
 }
 
 .education-entry.usc a:hover {
@@ -38,21 +40,24 @@
 /* NMIMS Styling */
 .education-entry.nmims {
     background-color: #FFFFFF; /* White background */
-    color: #000000; /* Black text */
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow to add depth */
 }
 
+.education-entry.nmims, .education-entry.nmims p, .education-entry.nmims h3, .education-entry.nmims a {
+    color: #000000 !important; /* Black text */
+}
+
 .education-entry.nmims a {
-    color: #990000; /* NMIMS Red for links */
-    text-decoration: none;
+    color: #990000 !important; /* NMIMS Red for links */
 }
 
 .education-entry.nmims a:hover {
     text-decoration: underline;
 }
+
 
 .university-logo {
     width: 100px; /* Adjust the size of the logo */
