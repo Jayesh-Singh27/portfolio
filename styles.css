@@ -89,18 +89,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    background-image: url('images/background.jpeg');
-    background-size: cover;
-    background-attachment: fixed;
-    color: #e0e0e0;
+    background-color: #ffffff; /* White theme background */
+    color: #000000; /* Black text */
 }
-
 
 /* Header styling */
 header {
-    background: #1f1f1f;
-    color: #ffce00;
+    background: #ffffff; /* White header background */
+    color: #000000; /* Black text */
     padding: 1rem 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -118,21 +114,36 @@ header p {
 }
 
 header a {
-    color: #ffce00;
+    color: #000000; /* Black text for links */
     text-decoration: none;
     font-weight: bold;
 }
 
 header a:hover {
-    color: #e0e0e0;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 header p a {
-    color: #ffce00;
     margin: 0 10px;
     font-size: 1.5rem;
     text-decoration: none;
+}
+
+/* Icon Colors */
+header i.fa-envelope {
+    color: #ff0000; /* Red email icon */
+}
+
+header i.fa-phone {
+    color: #ffce00; /* Yellow phone icon */
+}
+
+header i.fa-linkedin {
+    color: #0077b5; /* Blue LinkedIn icon */
+}
+
+header i.fa-github {
+    color: #ffffff; /* White GitHub icon */
 }
 
 header i {
@@ -141,7 +152,7 @@ header i {
 
 /* Navigation bar styling */
 nav {
-    background: #1a1a1a;
+    background: #f0f0f0; /* Light background for navbar */
     padding: 0.5rem 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -160,7 +171,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e0e0e0;
+    color: #000000; /* Black text for navbar links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -179,25 +190,24 @@ main {
 section {
     margin: 1rem auto;
     max-width: 1000px;
-    background: #1f1f1f;
+    background: #f7f7f7; /* Light background for sections */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-left: 8px solid #ffce00;
     padding: 1rem;
 }
 
 section h2 {
-    border-bottom: 2px solid #ffce00;
+    border-bottom: 2px solid #000000; /* Black underline for headings */
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     font-size: 1.8rem;
-    color: #ffce00;
+    color: #000000; /* Black text */
 }
 
 section h3 {
     margin-top: 1rem;
     font-size: 1.4rem;
-    color: #cccccc;
+    color: #666666; /* Dark grey subheadings */
 }
 
 ul {
@@ -207,11 +217,11 @@ ul {
 ul li {
     margin-bottom: 0.5rem;
     line-height: 1.4;
-    color: #cccccc;
+    color: #333333; /* Dark grey text */
 }
 
 a {
-    color: #ffce00;
+    color: #000000; /* Black text for links */
     text-decoration: none;
 }
 
