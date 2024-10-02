@@ -28,7 +28,7 @@
 }
 
 .university-logo {
-    width: 50px; /* Adjust the size of the logo */
+    width: 100px; /* Adjust the size of the logo */
     height: auto; /* Maintain aspect ratio */
     margin-right: 1rem; /* Space between logo and text */
 }
