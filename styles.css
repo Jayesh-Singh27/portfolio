@@ -138,11 +138,11 @@ header p a {
 
 /* Icon Colors */
 header i.fa-envelope {
-    color: #ff3333; /* Red email icon */
+    color: #ff474c; /* Red email icon */
 }
 
 header i.fa-phone {
-    color: #ffffc5; /* Yellow phone icon */
+    color: #ffde21; /* Yellow phone icon */
 }
 
 header i.fa-linkedin {
@@ -178,7 +178,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #4682B4; /* Steel blue text for navbar links */
+    color: #66FCF1; /* Steel blue text for navbar links */
     text-decoration: none;
     font-weight: bold;
 }
