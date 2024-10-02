@@ -204,11 +204,11 @@ section {
 }
 
 section h2 {
-    border-bottom: 2px solid #ffce00; /* Yellow underline */
+    border-bottom: 2px solid #4682B4; /* Steel blue color for the line */
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     font-size: 1.8rem;
-    color: #ffffff;
+    color: #ADD8E6; /* Light blue color */
 }
 
 section h3 {
