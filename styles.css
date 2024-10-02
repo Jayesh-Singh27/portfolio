@@ -17,14 +17,41 @@
     line-height: 1.6; /* Spacing for the text */
 }
 
-.education-entry {
-    display: flex;
-    align-items: center; /* Align items vertically centered */
-    margin-bottom: 1.5rem; /* Space between education entries */
-    background: #1f1f1f; /* Background color for the box */
-    border-radius: 8px; /* Rounded corners */
-    padding: 1rem; /* Padding inside the box */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+/* USC Styling */
+.education-entry.usc {
+    background-color: #FFCC00; /* USC Yellow */
+    color: #000000; /* Black text */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.education-entry.usc a {
+    color: #990000; /* USC Red for links */
+    text-decoration: none;
+}
+
+.education-entry.usc a:hover {
+    text-decoration: underline;
+}
+
+/* NMIMS Styling */
+.education-entry.nmims {
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow to add depth */
+}
+
+.education-entry.nmims a {
+    color: #990000; /* NMIMS Red for links */
+    text-decoration: none;
+}
+
+.education-entry.nmims a:hover {
+    text-decoration: underline;
 }
 
 .university-logo {
